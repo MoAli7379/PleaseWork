@@ -125,7 +125,22 @@ const Header = () => {
         
         <div className='header__connect'>
           
-            
+        <button 
+  style={{
+    backgroundColor: '#311c31',
+    color: '#fc72ff',
+    border: 'none',
+    borderRadius: '15px', // Slightly rounder corners
+    padding: '5px 10px', // Reduced padding for a smaller button
+    fontSize: '1rem', // Smaller font size
+    cursor: 'pointer',
+    marginRight: '10px' // Adjust spacing as needed
+  }}
+  onClick={() => window.location.href = 'https://react-id28.onrender.com'}
+>
+  Connect
+</button>
+
            
         
         </div>
