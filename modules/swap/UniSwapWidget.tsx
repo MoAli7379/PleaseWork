@@ -34,6 +34,7 @@ const UniSwapWidget = () => {
           jsonRpcUrlMap={jsonRpcUrlMap}
           theme={theme}
           onConnectWalletClick={handleConnectWallet} // Custom handler for Connect Wallet button
+          width="450px"
           // Include other properties as needed
         />
       </div>
